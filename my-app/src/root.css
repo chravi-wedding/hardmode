@@ -1,0 +1,56 @@
+
+@import url('https://fonts.cdnfonts.com/css/chomsky');
+@import url('https://fonts.googeapis.com/css2?family=Libre+Franklin:ital,wght@900&display=swap');
+
+.sidebar-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family:'Chomsky';
+    text-align: center;
+}
+
+.title2 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-family:"Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+}    
+
+.subtitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    style: normal;
+    text-align: center;
+}
+
+.game-toggles {
+    display: flex;
+    flex-direction: column;
+}
+
+.toggle {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.toggle:hover {
+    background-color: #f0f0f0;
+}
